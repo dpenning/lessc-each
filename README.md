@@ -10,15 +10,15 @@ This feature may be added at a later time, so stay tuned.
 
 ## Installation
 
-    $ npm install lessc-each
+    $ npm install [-g] lessc-each
 
 ## Usage
 
 ### Command Line
 
-    $ node  ‹path/to/›lessc-each  ‹dir1›  ‹dir2›
+    $ lessc-each  ‹dir1›  ‹dir2›
 
-Where `‹path/to/›` is the relative path to `lessc-each/index.js`,
+Where
 `‹dir1›` is the directory of Less files to compile, and
 `‹dir2›` is the directory for output files.
 **Both directories *must* be relative to the current path of the command line.**

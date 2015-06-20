@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 
 // Run `node  lessc-each.js  ‹dir1›  ‹dir2›` to activate.
 // @param `‹dir1›` - the relative directory of files to compile

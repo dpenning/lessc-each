@@ -1,10 +1,13 @@
 {
   "name": "lessc-each",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node package that compiles each Less CSS file in a directory.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lessc-each": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/chharvey/lessc-each/issues"
   },
-  "homepage": "https://github.com/chharvey/lessc-each#readme",
+  "homepage": "https://github.com/chharvey/lessc-each",
   "dependencies": {
     "less": "~2.5.1"
   }
