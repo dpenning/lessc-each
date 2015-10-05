@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/chharvey/lessc-each",
   "dependencies": {
-    "less": "~2.5.1"
+    "less": "^2.5.3"
   }
 }
