@@ -15,6 +15,21 @@ var dir_start = process.cwd()                                         // directo
 
 try {
   process.chdir(dir_in)
+  try {
+    process.chdir(dir_out)
+    theWork()
+  } catch (err) {
+    console.error('out dir: ' + err)
+    console.log('making directory...')
+    fs.mkdir(dir_out, theWork)
+  }
+} catch (err) {
+  console.error('in dir: ' + err)
+  console.log('please try again')
+}
+
+function theWork() {
+  process.chdir(dir_in)
 
   fs.readdir(dir_in, function (err, files) {
     if (err) return console.error('There was an error: ', err)
@@ -47,6 +62,4 @@ try {
       })
     })
   })
-} catch (err) {
-  console.error('chdir: ' + err)
 }
