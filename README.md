@@ -21,6 +21,7 @@ This feature may be added at a later time, so stay tuned.
 Where
 `‹dir1›` is the directory of Less files to compile, and
 `‹dir2›` is the directory for output files.
+If `‹dir2›` does not exist, it will automatically be created.
 **Both directories *must* be relative to the current path of the command line.**
 
 ### Programmatic
