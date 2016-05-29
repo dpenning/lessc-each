@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/chharvey/lessc-each/issues"
   },
-  "homepage": "https://github.com/chharvey/lessc-each/blob/gh-pages/README.md",
+  "homepage": "https://github.com/chharvey/lessc-each#readme",
   "dependencies": {
     "less": "^2.5.3"
   }
